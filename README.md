@@ -121,8 +121,8 @@ Total 100
 
 # Student Information
 
-Student Name:MUNYAWERA Anaclet
-Reg Number:25RP00508
-Courses Name: Front End Development
+# Student Name: MUNYAWERA Anaclet
+# Reg Number: 25RP00508
+# Courses Name: Front End Development
 
 ---------------------------------END-------------------------------------
