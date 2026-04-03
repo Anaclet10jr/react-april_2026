@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background:linear-gradient(120deg,rgb(77, 77, 158),rgb(192, 157, 157),rgb(120, 165, 165));
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #34495e;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0004fa;
+}
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  padding: 6px 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  max-width: 90%;
+}
+
+/* Part containers */
+div {
+  margin-bottom: 30px;
+  padding: 20px;
+ background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* To-Do List */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li span {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Calculator results */
+ul li {
+  margin-left: 20px;
+}
+
+/* Responsive media queries */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
